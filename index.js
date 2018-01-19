@@ -11,6 +11,7 @@ function createMultiplier(num, func) {
   }
   return function() {
     console.log("Your score is: " + score);
+  }
 }
 
 var doubler = createMultiplier(4, doubler);
