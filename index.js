@@ -4,7 +4,7 @@ function countdown(callback) {
 
 function createMultiplier(num, func) {
   var score = 0;
-  if (num === doubler) {
+  if (func === doubler) {
     score = doubler();
   }
   
