@@ -5,9 +5,11 @@ function countdown(callback) {
 function createMultiplier(num, func) {
   var score = 0;
   if (func === doubler) {
-    score = doubler();
+    score = doubler(num);
+  } else if (func === tripler) {
+    score = tripler(num)
   }
-  
+  return score;
 }
 
 var doubler = createMultiplier(4, doubler);
