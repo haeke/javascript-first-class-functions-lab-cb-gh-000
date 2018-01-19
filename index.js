@@ -14,8 +14,6 @@ function createMultiplier(func) {
   }
 }
 
-createMultiplier(func);
-
 function doubler(num) {
   return num * 2;
 }
@@ -23,3 +21,5 @@ function doubler(num) {
 function tripler(num) {
   return num * 3;
 }
+
+var multi = createMultiplier(func);
