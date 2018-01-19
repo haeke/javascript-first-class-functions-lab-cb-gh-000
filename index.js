@@ -2,10 +2,10 @@ function countdown(callback) {
   window.setTimeout(callback, 2000);
 }
 
-function createMultiplier(multiplyerValue) {
-  
+function createMultiplier(multiplierValue) {
+    
+
 }
 
-function doubler() {
-  
-}
+var doubler = createMultiplier(20);
+var tripler = createMultiplier(20);
