@@ -2,14 +2,14 @@ function countdown(callback) {
   window.setTimeout(callback, 2000);
 }
 
-function createMultiplierBonus(multiplierValue) {
+function createMultiplier(multiplierValue) {
   return function(value) {
     return multiplierValue * value;
   }
 }
 
-var doubler = createMultiplierBonus(20);
-var tripler = createMultiplierBonus(20);
+var doubler = createMultiplier(20);
+var tripler = createMultiplier(20);
 
 function multiplier(one, two) {
   return one * two;
