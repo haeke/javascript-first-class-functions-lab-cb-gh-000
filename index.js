@@ -11,8 +11,8 @@ function createMultiplierBonus(multiplierValue) {
 var doubler = createMultiplier(20);
 var tripler = createMultiplier(20);
 
-function multiplier(a, b) {
-  return a * b;
+function multiplier(one, two) {
+  return one * two;
 }
 var doublerWithBind = multiplier.bind(null, 2);
 var triplerWithBind = multiplier.bind(null, 3);
