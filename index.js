@@ -16,4 +16,4 @@ function multiplier(one, two) {
 }
 
 var doublerWithBind = multiplier.bind(null, 2);
-var triplerWithBind = multiplier.bind(3, null);
+var triplerWithBind = multiplier.bind(null, 3);
