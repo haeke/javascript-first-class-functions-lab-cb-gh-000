@@ -9,7 +9,8 @@ function createMultiplier(num, func) {
   } else if (func === tripler) {
     score = tripler(num)
   }
-  return score;
+  return function() {
+    score;
 }
 
 var doubler = createMultiplier(4, doubler);
