@@ -10,7 +10,7 @@ function createMultiplier(num, func) {
     score = tripler(num)
   }
   return function() {
-    score;
+    console.log(`Your score is: ${score}`);
 }
 
 var doubler = createMultiplier(4, doubler);
