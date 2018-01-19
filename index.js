@@ -8,5 +8,5 @@ function createMultiplierBonus(multiplierValue) {
   }
 }
 
-var doubler = createMultiplier(20);
-var tripler = createMultiplier(20);
+var doubler = createMultiplierBonus(20);
+var tripler = createMultiplierBonus(20);
