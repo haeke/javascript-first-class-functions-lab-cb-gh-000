@@ -14,7 +14,7 @@ function createMultiplier(func) {
   }
 }
 
-createMultiplier(doubler);
+createMultiplier(func);
 
 function doubler(num) {
   return num * 2;
