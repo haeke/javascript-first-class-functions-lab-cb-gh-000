@@ -11,3 +11,11 @@ function createMultiplier(num) {
 }
 
 var doubler = createMultiplier(4);
+
+function doubler(num) {
+  return num * 2;
+}
+
+function tripler(num) {
+  return num * 3;
+}
