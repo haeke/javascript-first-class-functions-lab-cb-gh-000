@@ -4,6 +4,10 @@ function countdown(callback) {
 
 function createMultiplier(num) {
   
+  if (num === doubler) {
+    
+  }
+  
 }
 
 var doubler = createMultiplier(4);
