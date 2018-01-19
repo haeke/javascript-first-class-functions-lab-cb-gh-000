@@ -2,7 +2,7 @@ function countdown(callback) {
   window.setTimeout(callback, 2000);
 }
 
-function createMultiplier(num, func) {
+function createMultiplier(func) {
   var score = 0;
   if (func === doubler) {
     score = doubler(num);
@@ -14,7 +14,7 @@ function createMultiplier(num, func) {
   }
 }
 
-var doubler = createMultiplier(4, doubler);
+createMultiplier(doubler);
 
 function doubler(num) {
   return num * 2;
