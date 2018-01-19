@@ -6,8 +6,8 @@ function createMultiplier(multiplierValue) {
   return function(value) {
     return multiplierValue * value;
   }
-
 }
 
 var doubler = createMultiplier(20);
 var tripler = createMultiplier(20);
+
